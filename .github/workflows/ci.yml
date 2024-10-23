@@ -23,13 +23,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client pandas gspread
         pip install -r requirements.txt
-    - name: Create credentials file
-      run: |
-        echo "$GOOGLE_SHEETS_CREDENTIALS" > credentials.json
-      env:
-        GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
 
     - name: Run data script
+      env:
+        GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
       run: |
         python3 generator_danych.py -s 25566
 

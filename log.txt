@@ -1,0 +1,25 @@
+2024-10-23 17:19:14,605 - INFO - Rozpoczynanie czyszczenia danych...
+2024-10-23 17:19:14,609 - INFO - Liczba usuniêtych wierszy: 67, co stanowi 6.70% wszystkich danych.
+2024-10-23 17:19:18,016 - INFO - Dane zosta³y zapisane do arkusza Google: Arkusz2
+2024-10-23 17:19:18,017 - INFO - Rozpoczynanie standaryzacji danych...
+2024-10-23 17:19:18,019 - INFO - Zakoñczono standaryzacjê danych.
+2024-10-23 17:19:22,638 - INFO - Dane zosta³y zapisane do arkusza Google: Arkusz3
+2024-10-23 17:23:03,795 - INFO - Rozpoczynanie czyszczenia danych...
+2024-10-23 17:23:03,799 - INFO - Liczba usuniêtych wierszy: 67, co stanowi 6.70% wszystkich danych.
+2024-10-23 17:24:27,646 - INFO - Rozpoczynanie czyszczenia danych...
+2024-10-23 17:24:27,650 - INFO - Liczba usuniêtych wierszy: 67, co stanowi 6.70% wszystkich danych.
+2024-10-23 17:24:31,514 - INFO - Dane zosta³y zapisane do arkusza Google: Arkusz2
+2024-10-23 17:24:31,514 - INFO - Rozpoczynanie standaryzacji danych...
+2024-10-23 17:24:31,514 - INFO - Zakoñczono standaryzacjê danych.
+2024-10-23 17:24:35,952 - INFO - Dane zosta³y zapisane do arkusza Google: Arkusz3
+2024-10-23 17:24:35,953 - INFO - Raport zosta³ zapisany w pliku: report.txt
+2024-10-23 17:29:49,200 - INFO - Rozpoczynanie czyszczenia danych...
+2024-10-23 17:29:49,201 - INFO - Liczba brakuj¹cych wartoœci przed czyszczeniem: 47
+2024-10-23 17:29:49,205 - INFO - Liczba brakuj¹cych wartoœci po czyszczeniu: 0
+2024-10-23 17:29:49,205 - INFO - Procent zmienionych danych (uzupe³nione braki): 100.00%
+2024-10-23 17:29:49,205 - INFO - Liczba usuniêtych wierszy: 50, co stanowi 5.00% wszystkich danych.
+2024-10-23 17:29:52,963 - INFO - Dane zosta³y zapisane do arkusza Google: Arkusz2
+2024-10-23 17:29:52,964 - INFO - Rozpoczynanie standaryzacji danych...
+2024-10-23 17:29:52,967 - INFO - Zakoñczono standaryzacjê danych.
+2024-10-23 17:29:57,330 - INFO - Dane zosta³y zapisane do arkusza Google: Arkusz3
+2024-10-23 17:29:57,331 - INFO - Raport zosta³ zapisany w pliku: report.txt

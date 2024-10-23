@@ -1,0 +1,3 @@
+Raport z czyszczenia i standaryzacji danych:
+Procent zmienionych danych: 100.00%
+Procent usuniêtych danych: 5.00%

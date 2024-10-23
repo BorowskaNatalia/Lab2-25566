@@ -104,7 +104,7 @@ def save_to_google_sheets(df, sheet_name, worksheet_name, json_keyfile):
     logger.info(f"Dane zostały zapisane do arkusza Google: {worksheet_name}")
 
 if __name__ == "__main__":
-    json_keyfile = 'lab2-439408-0ef79147a09d.json'
+    json_keyfile = 'lab2-439408-876ac3b2eb7f.json'
     sheet_name = 'Lab2'
     worksheet_name = 'Arkusz1'
     worksheet_name_cleaned = 'Arkusz2'

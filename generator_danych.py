@@ -79,11 +79,13 @@ def generate_data(student_number, n_samples=1000):
     return df
 
 def authorize_google_sheets():
+    service_account_info = json.loads(os.environ['GOOGLE_APPLICATION_CREDENTIALS'])
+    
     scope = [
         'https://www.googleapis.com/auth/spreadsheets',
         'https://www.googleapis.com/auth/drive'
     ]
-    creds = Credentials.from_service_account_file('lab2-439408-0ef79147a09d.json', scopes=scope)
+    creds = Credentials.from_service_account_info(service_account_info, scopes=scope)
     client = gspread.authorize(creds)
     return client
 

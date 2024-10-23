@@ -11,11 +11,12 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger()
 
 def authorize_google_sheets(json_keyfile):
+    service_account_info = json.loads(os.environ['GOOGLE_APPLICATION_CREDENTIALS'])
     scope = [
         'https://www.googleapis.com/auth/spreadsheets',
         'https://www.googleapis.com/auth/drive'
     ]
-    creds = Credentials.from_service_account_file(json_keyfile, scopes=scope)
+    creds = Credentials.from_service_account_info(service_account_info, scopes=scope)
     client = gspread.authorize(creds)
     return client
 
